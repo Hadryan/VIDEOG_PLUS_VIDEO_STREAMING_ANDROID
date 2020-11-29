@@ -1,0 +1,73 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextAppearance">@style/customActionBar</item>
+    </style>
+
+    <!-- ***** PREVIOUS CODE ***** -->
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Parent theme sets colorControlNormal to textColorPrimary. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="customActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!-- ******* PREVIOUS CODE ******** -->
+    <!--<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="android:windowFullscreen">true</item>-->
+    <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--<item name="android:windowBackground">@drawable/background_splash</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+    <style name="NavDrawerTextStyle" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!--    <style name="WeiboPopAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/top_in</item>
+        <item name="android:windowExitAnimation">@anim/top_out</item>
+    </style>
+
+    <style name="QQPopAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/right_top_in</item>
+        <item name="android:windowExitAnimation">@anim/right_top_out</item>
+    </style>-->
+
+
+</resources>

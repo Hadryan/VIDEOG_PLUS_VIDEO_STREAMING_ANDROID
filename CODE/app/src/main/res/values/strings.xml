@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">VideoG Plus</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="titleEn">Welcome to VideoG Plus</string>
+    <string name="titleBn">ভিডিওজি প্লাসে স্বাগতম</string>
+
+    <!-- Drawer Menu English List -->
+    <string name="home">Home</string>
+    <string name="hits">Hits</string>
+    <string name="selected">Selected</string>
+    <string name="mylist">My List</string>
+    <string name="video_song">Video Song</string>
+    <string name="drama">Drama</string>
+    <string name="movie">Movie</string>
+    <string name="offline">Offline</string>
+    <string name="subscription">Subscription</string>
+
+    <string name="home_bn">হোম</string>
+    <string name="hits_bn">জনপ্রিয়</string>
+    <string name="selected_bn">নির্বাচিত গান</string>
+    <string name="mylist_bn">আমার লিস্ট</string>
+    <string name="video_song_bn">ভিডিও গান</string>
+    <string name="drama_bn">নাটক</string>
+    <string name="movie_bn">সিনেমা</string>
+    <string name="offline_bn">অফলাইন</string>
+    <string name="subscription_bn">সাবস্ক্রিপশন</string>
+
+    <string name="one">১</string>
+    <string name="two">২</string>
+    <string name="three">৩</string>
+    <string name="four">৪</string>
+    <string name="five">৫</string>
+    <string name="six">৬</string>
+    <string name="seven">৭</string>
+    <string name="eight">৮</string>
+    <string name="nine">৯</string>
+    <string name="zero">০</string>
+
+    <!-- Tab Values -->
+    <string name="song_tab_bn">ভিডিও গান</string>
+    <string name="drama_tab_bn">নাটক</string>
+    <string name="movie_tab_bn">সিনেমা</string>
+
+    <string name="song_tab">Video Song</string>
+    <string name="drama_tab">Natok</string>
+    <string name="movie_tab">Movies</string>
+
+    <string name="authorization_key">Basic YWRtaW46R3RlY2hWSURFT0c=</string>
+    <string name="bkash_authorization_key">Basic YWRtaW46R3RlY2hTTVNWMQ==</string>
+    <string name="image_url">http://vdog.radiogbd.com/</string>
+    <string name="tag">VideoG Plus</string>
+
+    <string name="no_internet">No Internet</string>
+    <string name="http_error">HTTP Server Error</string>
+    <string name="bangla">বাংলা</string>
+
+    <string name="no_data">No Data</string>
+    <string name="no_data_bn">ডাটা নেই</string>
+
+    <integer name="sdk">23</integer>
+
+    <string name="default_resolution">240p</string>
+
+    <string-array name="quality_array">
+        <item>144p</item>
+        <item>240p</item>
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+
+    <string name="next">Next Track</string>
+    <string name="next_bn">পরবর্তী ভিডিও</string>
+
+    <string name="suggestion">You may also like</string>
+    <string name="suggestion_bn">আরো পছন্দনীয়</string>
+
+    <integer name="data_size">20</integer>
+
+    <string name="exit_dialog">Are you sure want to exit?</string>
+    <string name="exit_dialog_bn">আপনি কি বের হতে চান?</string>
+    <string name="yes">Yes</string>
+    <string name="yes_bn">হ্যাঁ</string>
+    <string name="no">No</string>
+    <string name="no_bn">না</string>
+
+    <string name="number_msg_en">If you want to listen any kind of Premium Content within this app, Operator subscription is required. Please provide your number below and Subscribe.</string>
+    <string name="number_msg_bn">ভিডিওজি অ্যাপের মাধ্যমে যেকোন ধরনের প্রিমিয়াম কন্টেন্ট দেখতে অপারেটর সাবস্ক্রিপশন প্রয়োজন। দয়া করে নিচে আপনার মোবাইল নাম্বারটি লিখুন আর সাবস্ক্রাইব করুন।</string>
+    <string name="number_pin_bn">দয়া করে নিচে আপনার পিন নাম্বারটি লিখুন আর ডাউনলোড করুন।</string>
+    <string name="number_cancel_btn_en">Cancel</string>
+    <string name="number_cancel_btn_bn">বাতিল করুন</string>
+    <string name="number_submit_btn_en">Submit</string>
+    <string name="number_submit_btn_bn">সাবমিট করুন</string>
+
+    <string name="unsub_msg_en">You are not subscribed</string>
+    <string name="unsub_msg_bn">আপনি সাবস্ক্রাইব না</string>
+
+    <string name="unsub_btn_en">Subscribe Now</string>
+    <string name="unsub_btn_bn">সাবস্ক্রিপশন করুন</string>
+
+    <string name="bkash_text_bn">ভিডিওজি  প্লাস সার্ভিসে আপনাকে স্বাগতম। আপনার মোবাইল নম্বরটি লিখুন এবং নিবন্ধন করুন। নিবন্ধনের পর সাবস্ক্রিপশনের জন্য বিকাশ নম্বর প্রযোজ্য। নিবন্ধিত হয়ে যাওয়ার পর ভিডিওজি প্লাস-এর সাবস্ক্রিপশন চার্জ আপনার বিকাশ নম্বর থেকে কেটে নেয়া হবে।</string>
+    <string name="bkash_text_en">Welcome to the VideoG Plus service. Please put on your mobile number and register. BKash number is required for subscription. After registration subscription charge for VideoG Plus service will be deducted from your bKash number.</string>
+
+    <string name="number_bn">বিকাশ নাম্বার</string>
+    <string name="number_en">Service Number</string>
+    <string name="verified_bn">নিবন্ধিত</string>
+    <string name="verified_en">Subscribed</string>
+    <string name="expired_bn">মেয়াদ শেষ</string>
+    <string name="expired_en">Expiry Time</string>
+    <string name="message_bn">ভিডিওজি প্লাস অ্যাপের মাধ্যমে যেকোন ধরনের গান শুনতে বিকাশ নাম্বার নিবন্ধন প্রয়োজন। দয়া করে নিচে আপনার বিকাশ মোবাইল নাম্বারটি লিখুন আর নিবন্ধন করুন। নিবন্ধিত হয়ে যাওয়ার পর ভিডিওজি প্লাস সাবস্ক্রিপশন চার্জ আপনার বিকাশ নম্বর থেকে অনুমতি সাপেক্ষে কেটে নেয়া হবে। বিকাশ-এর ভিডিওজি প্লাস সার্ভিসে আপনাকে স্বাগতম।</string>
+    <string name="message_en">To listen the song from VideoG plus app, bKash number registration is required. Please put on your bKash number here below and register for the service. After the registration VideoG plus subscription charge will be deducted from the bKash number with your permission. Welcome to the bKash VideoG plus service.</string>
+    <string name="unsub_bn">আনসাবস্ক্রাইব</string>
+    <string name="sub_bn">সাবস্ক্রাইব</string>
+    <string name="unsub_en">Unsubscribe</string>
+    <string name="sub_en">Subscribe</string>
+    <string name="bkash_registration_en">bKash Payment</string>
+    <string name="bkash_registration_bn">বিকাশ পেমেন্ট</string>
+
+
+</resources>

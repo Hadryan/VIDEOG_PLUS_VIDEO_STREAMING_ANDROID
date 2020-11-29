@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimary50">#80ffffff</color>
+    <color name="colorPrimary75">#BFffffff</color>
+    <color name="colorPrimaryDark">#e3106d</color>
+    <color name="colorAccent">#ff2385</color>
+    <color name="ashLight">#D3CCC6</color>
+    <color name="ash">#99938E</color>
+
+    <!--<color name="colorPrimary">#1a1a1a</color>-->
+    <!--<color name="colorPrimaryDark">#000000</color>-->
+    <!--<color name="colorAccent">#e6e6e6</color>-->
+    <color name="colorLabel">#AFDC4C</color>
+    <color name="colorDeep">#0a0015</color>
+    <color name="colorPink">#4d0332</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#000135</color>
+
+    <!--<color name="colorPrimary75">#BF1a1a1a</color>-->
+    <color name="colorPrimaryDark75">#BF000000</color>
+    <color name="colorAccent75">#BFe6e6e6</color>
+    <color name="colorLabel75">#BFAFDC4C</color>
+    <color name="colorDeep75">#BF0a0015</color>
+    <color name="colorPink75">#BF4d0332</color>
+    <color name="colorWhite75">#BFffffff</color>
+    <color name="colorGreen75">#BF000135</color>
+
+    <!--<color name="colorPrimary50">#801a1a1a</color>-->
+    <color name="colorPrimaryDark50">#80000000</color>
+    <color name="colorAccent50">#80e6e6e6</color>
+    <color name="colorLabel50">#80AFDC4C</color>
+    <color name="colorDeep50">#800a0015</color>
+    <color name="colorPink50">#804d0332</color>
+    <color name="colorWhite50">#80ffffff</color>
+    <color name="colorGreen50">#80000135</color>
+
+    <color name="colorPrimary25">#401a1a1a</color>
+    <color name="colorPrimaryDark25">#40000000</color>
+    <color name="colorAccent25">#40e6e6e6</color>
+    <color name="colorLabel25">#40AFDC4C</color>
+    <color name="colorDeep25">#400a0015</color>
+    <color name="colorPink25">#404d0332</color>
+    <color name="colorWhite25">#40ffffff</color>
+    <color name="colorGreen25">#40000135</color>
+
+
+
+
+
+    <!--
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "46408214552",
+    "firebase_url": "https://videog-streaming.firebaseio.com",
+    "project_id": "videog-streaming",
+    "storage_bucket": "videog-streaming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46408214552:android:708d5dffd9ac2316",
+        "android_client_info": {
+          "package_name": "com.gtechnologies.videogplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46408214552-t1uf1hrqp6paltatf9mq1oiqkc4vqcli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH8vPu3izcx8WkoaR77T0VVCF-6eksWs4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

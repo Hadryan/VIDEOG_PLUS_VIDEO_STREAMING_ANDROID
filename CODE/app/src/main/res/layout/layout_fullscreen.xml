@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/video_player_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_player"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            app:rewind_increment="10000"
+            app:fastforward_increment="1000"
+            android:layout_height="wrap_content"
+            app:use_controller="true"
+            app:show_timeout="10000"
+            app:resize_mode="fill"
+            app:controller_layout_id="@layout/custom_playback_control"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/loadingImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            android:src="@drawable/loader"/>
+    </RelativeLayout>
+
+</LinearLayout>

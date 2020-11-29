@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_hits"
+            android:icon="@drawable/ic_hits"
+            android:title="Hits" />
+        <item
+            android:id="@+id/nav_selected"
+            android:icon="@drawable/ic_selected"
+            android:title="Selected" />
+<!--        <item
+            android:id="@+id/nav_mylist"
+            android:icon="@drawable/ic_mylist"
+            android:title="My List" />-->
+        <item
+            android:id="@+id/nav_song"
+            android:icon="@drawable/ic_video_song"
+            android:title="Song" />
+        <item
+            android:id="@+id/nav_drama"
+            android:icon="@drawable/ic_drama"
+            android:title="Drama" />
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_movies"
+            android:title="Movie" />
+        <!--<item-->
+            <!--android:id="@+id/nav_offline"-->
+            <!--android:icon="@drawable/ic_cloud_storage_download"-->
+            <!--android:title="Offline" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_settings"-->
+            <!--android:icon="@drawable/ic_settings_gears"-->
+            <!--android:title="Settings" />-->
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_subscription"
+            android:title="Subscription" />
+
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="Language" />
+
+        <!--<item
+            android:orderInCategory="999"
+            android:title="Others">
+            <menu>
+                <group
+                    android:checkableBehavior="single"
+                    android:orderInCategory="999">
+                    <item
+                        android:id="@+id/nav_more"
+                        android:icon="@drawable/ic_cloud_storage_download"
+                        android:title="Exclusive Collection" />
+                    <item
+                        android:id="@+id/nav_about"
+                        android:icon="@drawable/ic_category"
+                        android:title="New Album" />
+                </group>
+            </menu>
+        </item>-->
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+</menu>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        custom:tabIndicatorColor="@color/colorPrimary"
+        custom:tabSelectedTextColor="@color/colorPrimary"
+        custom:tabTextColor="@color/colorPrimary75"/>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="5dp"-->
+        <!--android:layout_below="@+id/tab_layout"-->
+        <!--android:background="@drawable/drop_shadow" />-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
